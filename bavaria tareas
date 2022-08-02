@@ -1,0 +1,181 @@
+Stella Ardua
+pony gaming
+cuponera
+budweiser (end point)
+197 sitios
+maximo 167
+
+-----------------
+
+development team MAZ
+
+CAROL 
+MARKETING
+ANAHIS
+digital de colombia jorge sanabria
+trade - clientes tiendas
+marketying - pára el consumidor
+tapi - ganas puntos
+julio ramirez  ' mi lider'
+
+ACQUIA -1 repositorio de drupal
+conseguir data
+
+
+--------------------------------
+
+procedimientos front
+
+https://www.canva.com/design/DAEosGcxULc/_laO84GNjSfMLwCKOQ1xPw/view#2
+
+---------------------------------
+npm install node-sass
+
+npm i -D postcss postcss-cli
+
+npm install onchange
+
+npm i autoprefixer
+
+---------------------------------
+en el archivo package.json
+
+"scripts": {
+    "sass": "sass --style=compressed dist/scss:dist/css",
+    "prefix": "npm run sass && postcss dist/css/**/*.css --use=autoprefixer --dir dist/css --map",
+    "build": "onchange \"dist/scss/**/*.scss\" -- npm run prefix"
+  },
+
+-------------------------------
+
+modulos themes libraries
+vendor 
+templates and libraries
+
+pull request
+'master'
+
+templates custom se ponen en un repositorio aparte 
+
+composer install
+
+comando composer si sale error a la instalacion
+
+composer install --ignore-platform-reqs
+
+
+instalar acquia
+
+preguntar a jonathan velandia
+
+
+el core se coloca en  docroot -> modules -> custom
+el theme se coloca en docroot -> themes -> custom
+files se colocan en docroot -> sites -> (sitio-nuevo)(verificar la ruta en el settings.php y el archivo services.yml)
+
+luego verificar si tiene package.json
+
+ingresar  ala ruta por consola ya sea al core o theme del proyecto y ejecutar
+
+npm run build
+
+
+--------------------------------------
+
+6015893643 - LUIS GANCHEROS
+
+--------------------------------------
+
+ivani@MSI MINGW64 /e/PROYECTOS/REPOD8/acquiadrupal8 (master)
+$ git remote add drupal8 https://github.com/Aortega0720/acquiadrupal8.git
+
+ivani@MSI MINGW64 /e/PROYECTOS/REPOD8/acquiadrupal8 (master)
+$ git remote -v
+drupal8 https://github.com/Aortega0720/acquiadrupal8.git (fetch)
+drupal8 https://github.com/Aortega0720/acquiadrupal8.git (push)
+origin  https://github.com/Iaramirez88/acquiadrupal8.git (fetch)
+origin  https://github.com/Iaramirez88/acquiadrupal8.git (push)
+
+
+
+drupal8 https://github.com/Aortega0720/acquiadrupal8.git (fetch)
+drupal8 https://github.com/Aortega0720/acquiadrupal8.git (push)
+
+origin  https://github.com/Iaramirez88/acquiadrupal8.git (fetch)
+origin  https://github.com/Iaramirez88/acquiadrupal8.git (push)
+
+pull
+
+push
+
+LINK DE REUNION
+
+https://ab-inbev.zoom.us/my/andres.guerreroa
+
+-------------------------------------------------
+
+
+21 de julio
+
+actualizacion de los terminos y condiciones
+
+https://www.lasgolden.pa/tyc-atlas-golden-coins
+
+-------------------------------------------------
+
+22 de julio
+
+https://www.figma.com/file/LPysoWKGwApNHsnMn5ZuUN/CC-Trivia-230622-(Copy)?node-id=201%3A8745
+
+https://club-colombia.dd:8443/registro-trivia
+
+-------------------------------------------------
+
+23 de julio
+
+se entrega el proyecto front de club colombia a juan
+
+-------------------------------------------------
+
+27 de julio
+
+https://docs.google.com/spreadsheets/d/1QOqVtj_PG_S7gEV5pplw2F9Si12tyajD/edit#gid=972054929
+
+archivo de credenciales
+
+performance - analyze page
+
+
+--------------------------------------
+
+28 de julio
+
+se trabajo en el reporte del estado de las paginas web en la mañana
+
+se trabajo en el front de raspa y gana en la tarde
+
+--------------------------------------
+
+29 de julio
+
+se termina el informe de los sitios colombia (9am)
+
+club colombia trivia cambios
+
+-------------------------------------
+
+01 de agosto
+
+proyecto 911-vital popups
+
+40 horas a la semana 
+
+se debe tener 36 puntos a la semana
+
+ruta de procesos:  no iniciada - en proceso - en qa - finalizado
+
+link figma 911 https://www.figma.com/file/rqky8POwcngV84nIaMZUfZ/DOM---911-VITAL?node-id=2323%3A31977
+
+https://www.figma.com/file/PokPYAkdLBr6yV2FH3U5L7/WEB-EX%C3%93TICOS?node-id=0%3A1
+
+QA GUARANÁ https://wakeful-sunspot-4bf.notion.site/PER-Guaran-Web-Ex-ticos-16ff069d004047d3a16767a833faf9af
