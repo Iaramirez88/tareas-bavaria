@@ -37,6 +37,11 @@ npm install onchange
 
 npm i autoprefixer
 
+
+comando para instalar todo
+
+npm i -D sass autoprefixer postcss postcss-cli onchange
+
 ---------------------------------
 en el archivo package.json
 
