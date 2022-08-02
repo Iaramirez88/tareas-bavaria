@@ -29,14 +29,6 @@ procedimientos front
 https://www.canva.com/design/DAEosGcxULc/_laO84GNjSfMLwCKOQ1xPw/view#2
 
 ---------------------------------
-npm install node-sass
-
-npm i -D postcss postcss-cli
-
-npm install onchange
-
-npm i autoprefixer
-
 
 comando para instalar todo
 
