@@ -34,10 +34,6 @@ comando para instalar todo
 
 npm i -D sass autoprefixer postcss postcss-cli onchange
 
-comando para borrar cache
-
-vendor\drush\drush\drush -l https://url/ cr
-
 ---------------------------------
 en el archivo package.json
 
@@ -46,6 +42,12 @@ en el archivo package.json
     "prefix": "npm run sass && postcss dist/css/**/*.css --use=autoprefixer --dir dist/css --map",
     "build": "onchange \"dist/scss/**/*.scss\" -- npm run prefix"
   },
+
+-------------------------------
+
+comando para borrar cache
+
+vendor\drush\drush\drush -l https://url/ cr
 
 -------------------------------
 
@@ -91,7 +93,9 @@ ivani@MSI MINGW64 /e/PROYECTOS/REPOD8/acquiadrupal8 (master)
 $ git remote add drupal8 https://github.com/Aortega0720/acquiadrupal8.git
 
 ivani@MSI MINGW64 /e/PROYECTOS/REPOD8/acquiadrupal8 (master)
+
 $ git remote -v
+
 drupal8 https://github.com/Aortega0720/acquiadrupal8.git (fetch)
 drupal8 https://github.com/Aortega0720/acquiadrupal8.git (push)
 origin  https://github.com/Iaramirez88/acquiadrupal8.git (fetch)
