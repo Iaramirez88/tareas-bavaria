@@ -30,6 +30,12 @@ https://www.canva.com/design/DAEosGcxULc/_laO84GNjSfMLwCKOQ1xPw/view#2
 
 ---------------------------------
 
+error de no tiene permisos al momento de ver un sitio local
+
+en el archivo htacess de la carpeta docroot se comentan las lineas desde la 91 hasta la 142
+
+---------------------------------
+
 comando para instalar todo
 
 npm i -D sass autoprefixer postcss postcss-cli onchange
