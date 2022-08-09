@@ -206,3 +206,14 @@ cambios en 911 vital
 link emulador de mac
 
 https://es.testingbot.com/members/manual/new?actionState=ended&t=manual165973481328499413
+
+--------------------------------------
+
+09 de agosto
+
+montando sitio bavaria local 
+
+importar base de datos en mysql -> bin 
+
+comando para inportar seria 
+mysql -u root db < db.sql
