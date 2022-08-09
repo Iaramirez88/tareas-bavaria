@@ -217,3 +217,13 @@ importar base de datos en mysql -> bin
 
 comando para inportar seria 
 mysql -u root db < db.sql
+
+arrancar por clave ssh 
+
+la rama debe ser master-migr
+
+mover a otra otra rama git checkout master-migr
+
+eval $(ssh-agent -s)
+
+ssh-add ~/acquiad7
