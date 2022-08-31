@@ -36,6 +36,10 @@ en el archivo htacess de la carpeta docroot se comentan las lineas desde la 91 h
 
 ---------------------------------
 
+npm init -y para crear el archivo package.json
+
+---------------------------------
+
 comando para instalar todo
 
 npm i -D sass autoprefixer postcss postcss-cli onchange
