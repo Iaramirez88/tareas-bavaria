@@ -231,3 +231,7 @@ mover a otra otra rama git checkout master-migr
 eval $(ssh-agent -s)
 
 ssh-add ~/acquiad7
+
+git reset --hard HEAD~1
+git push origin HEAD --force
+
