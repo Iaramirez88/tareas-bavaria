@@ -235,3 +235,11 @@ ssh-add ~/acquiad7
 git reset --hard HEAD~1
 git push origin HEAD --force
 
+---------------------------------------------------
+
+activar debug 
+
+web(docroot)/sites/default/services.yml
+
+cambiar debug: false
+por debug: true
