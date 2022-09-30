@@ -243,3 +243,9 @@ web(docroot)/sites/default/services.yml
 
 cambiar debug: false
 por debug: true
+---------------------------------------------------
+
+link de como agregar un js por modulo y no a nivel global
+
+https://www.drupal.org/docs/creating-modules/adding-assets-css-js-to-a-drupal-module-via-librariesyml
+
