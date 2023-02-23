@@ -255,3 +255,8 @@ link de como no usar jquery sino javascript
 
 https://youmightnotneedjquery.com/
 
+----------------------------------------------------
+
+Pasos git
+
+git remote add upstream https://github.com/abinbevcms/abidrupal9
