@@ -260,3 +260,46 @@ https://youmightnotneedjquery.com/
 Pasos git
 
 git remote add upstream https://github.com/abinbevcms/abidrupal9
+
+-----------------------------------------------------
+
+Instalar acquia con php 8
+
+C:\Program Files (x86)\DevDesktop1 
+Pegamos aquí la ruta de php8_1_x64
+También pegamos la misma carpeta en esta ruta
+C:\Program Files (x86)\DevDesktop1\common\cfgbox
+
+Editar el archivo
+
+C:\Program Files (x86)\DevDesktop1\AcquiaDevDesktop\static.ini
+
+Y agregar lo siguiente
+
+[php/8]
+id=php8_1
+executablePath=php8_1_x64\php.exe
+cgiExecutablePath=php8_1_x64\php-cgi.exe
+configPath=C:\Program Files (x86)\DevDesktop1\php8_1_x64\php.ini
+
+Editar el archivo
+
+C:\Program Files (x86)\DevDesktop1\common\cfgbox\AcquiaDevDesktop\static.ini
+
+Y agregar lo siguiente
+
+[php/8]
+id=php8_1
+executablePath=php8_1_x64\php.exe
+cgiExecutablePath=php8_1_x64\php-cgi.exe
+configPath=@@INSTALL_DIR@@\php8_1_x64\php.ini
+
+crear una carpeta php y pegar adentro solo la carpeta ext
+
+C:\php\ext
+
+Enseguida creamos una variable de entorno
+
+C:\Program Files (x86)\DevDesktop1\php8_1_x64
+
+
