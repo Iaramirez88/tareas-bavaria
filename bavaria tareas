@@ -62,6 +62,8 @@ comando para borrar cache
 
 vendor\drush\drush\drush -l https://url/ cr
 
+borrar cache modulos 
+vendor\drush\drush\drush -l https://url/ config-delete
 -------------------------------
 
 modulos themes libraries
