@@ -347,3 +347,8 @@ https://docs.acquia.com/cloud-platform/manage/ssh/getting-started-ssh/generate/
 links acquia sites
 
 http://coaguila.abi.acsitefactory.com/
+
+------------------------------------------
+borrar cache sitio local
+
+lando drush @sitio.local pm:uninstall acquia_lift
