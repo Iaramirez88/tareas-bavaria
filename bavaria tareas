@@ -352,3 +352,10 @@ http://coaguila.abi.acsitefactory.com/
 borrar cache sitio local
 
 lando drush @sitio.local pm:uninstall acquia_lift
+
+------------------------------------------
+crear link para loguearse sin contraseña y usuario
+
+lando drush @sandboxmaz2.local uli
+
+lando drush @sandboxmaz2.local user:unblock admin
