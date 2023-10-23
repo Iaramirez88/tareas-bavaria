@@ -312,7 +312,7 @@ executablePath=php8_1_x64\php.exe
 cgiExecutablePath=php8_1_x64\php-cgi.exe
 configPath=@@INSTALL_DIR@@\php8_1_x64\php.ini
 
-crear una carpeta php y pegar adentro solo la carpeta ext
+crear una carpeta php y copiar y pegar adentro solo la carpeta ext
 
 C:\php\ext
 
