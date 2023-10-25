@@ -77,6 +77,12 @@ vendor\drush\drush\drush -l https://url/ cr
 
 borrar cache modulos 
 vendor\drush\drush\drush -l https://url/ config-delete
+
+borra cahce automaticamente, se coloca en el archivo settings a lo ultimo del doc
+// </DDSETTINGS>
+$settings['cache']['bins']['render'] = 'cache.backend.memory';
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.memory';
+$settings['cache']['bins']['page'] = 'cache.backend.memory';
 -------------------------------
 
 modulos themes libraries
