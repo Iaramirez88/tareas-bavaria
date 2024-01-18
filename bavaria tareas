@@ -59,7 +59,7 @@ npm i -D sass autoprefixer postcss postcss-cli onchange
 
 si sale error probar con este codigo
 
-npm i --legacy-peer-deps -D sass autoprefixer postcss postcss-cl onchange
+npm i --legacy-peer-deps -D sass autoprefixer postcss postcss-cli onchange
 ---------------------------------
 en el archivo package.json
 
