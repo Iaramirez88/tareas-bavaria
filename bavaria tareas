@@ -368,3 +368,6 @@ crear link para loguearse sin contraseña y usuario
 lando drush @sandboxmaz2.local uli
 
 lando drush @sandboxmaz2.local user:unblock admin
+
+para ver errores log
+vendor\drush\drush\drush -l https://lasgolden.dd:8443/ ws 
